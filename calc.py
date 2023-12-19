@@ -1,4 +1,5 @@
 from typing import Any
+from typing import Any
 from point import Point
 from vector2 import vector2
 from tk import Building
