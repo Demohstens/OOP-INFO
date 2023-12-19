@@ -1,4 +1,4 @@
-from datatypes.point import Point
+from point import Point
 
 
 class Vector2(Point):

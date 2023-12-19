@@ -1,12 +1,12 @@
 import tkinter as tk
 from Building import Building
-from calc import intersect
+from calc import *
 
 def spawn_building(x, y):
     b = Building(canvas, x, y)
     if len(buildings) > 1:
         for b2 in buildings:
-            if intersect(b, b2):
+            if intersect2(b, b2):
                 canvas.create_rectangle(x, y, x+50, y+50 ,fill="red")  
         else:
             buildings.append(b)
